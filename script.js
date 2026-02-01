@@ -56,8 +56,8 @@ function startExperience() {
 
 // 2. Typing Logic (Fast & Auto-Scroll)
 let i = 0;
-// Note: Speed 20 kar di hai taaki lamba message jaldi type ho jaye
-const speed = 20; 
+
+const speed = 40; 
 const msgElement = document.getElementById("message");
 
 function typeWriter() {
