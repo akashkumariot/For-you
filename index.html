@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirf Tumhare Liye ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="password-screen">
+        <div class="pass-card">
+            <h2>Enter Secret Code 🔒</h2>
+            <input type="password" id="pass-input" placeholder="Type here...">
+            <button onclick="checkPassword()">Unlock🤍</button>
+            <p id="pass-error"></p>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="song.mp3" type="audio/mp3">
+    </audio>
+
+    <button class="start-btn" id="start-btn" onclick="startExperience()">Click to Open❤️</button>
+
+    <div class="card" id="card">
+        <h1>My Dearest...</h1>
+        
+        <div id="message"></div>
+
+        <div id="timer-container">
+            <p>We have been together for:</p>
+            <div id="timer">Loading...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
